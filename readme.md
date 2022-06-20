@@ -22,3 +22,9 @@ docker exec be4091be1261 airflow users create -u scheffer -p scheffer -f Gerson 
 ## CMD
 
 airflow db init
+
+--
+test task
+```
+airflow tasks test <dag id> <task id> <execution date in the past yyyy-MM-dd>
+```
